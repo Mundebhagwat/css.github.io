@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('login.jpg')!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 100%;   
+}
+.login_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    border:1px solid white;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.login_container h2{
+    background: linear-gradient(45deg, #ff4d00, #e5cd2e, #b6e853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.login_info{
+    background-color: transparent;
+    height: 40px;
+    margin: 10px;
+    color: white;
+    width: 25vw;
+    padding: 10px;
+    border: white 1px solid;
+    border-radius: 40px;
+}
+/* zooming effect */
+@keyframes zoomBackground {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2); /* Adjust zoom level as needed */
+    }
+  }

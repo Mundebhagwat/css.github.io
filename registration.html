@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css" type="text/css">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- poppins font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <img src="logo1.png" alt="logo">
+                    <div>Crops Sense Services</div>
+                </div>
+                <li><img class="png" src="home.png" alt="home">Home</li>
+                <li><img src="contact.png" alt="contact">Contact</li>
+                <li><img src="about.png" alt="About">About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="registration_heading">
+     <h2>Registration</h2>
+    </div>
+    <main class="main_container">
+        <div class="login_container">
+            <div class="first_login_constraints">
+                <p>
+                    <input class="login_info" type="text" id="fullname" name="fullname" placeholder="Fullname" required>
+                </p>
+                <p>
+                    <input class="login_info" type="text" id="area" name="area" placeholder="Area" required>
+                </p>
+                <p>
+                    <input class="login_info" type="text" id="village" name="village" placeholder="Village" required>
+                </p>
+                <p>
+                    <input class="login_info" type="text" id="taluka" name="taluka" placeholder="Taluka" required>
+                </p>
+                <p>
+                    <input class="login_info" type="text" id="district" name="district" placeholder="District" required>
+                </p>
+                <p>
+                    <input class="login_info" id="crop-history" name="crop-history" placeholder="Crop History" required>
+                </p>
+
+            </div>
+            <div class="second_login_constraints">
+                <p>
+                    <input class="login_info" type="text" id="yearly-income" name="yearly-income"
+                        placeholder="Yearly income" required>
+                </p>
+                <p>
+                    <select class="login_info" id="farmer-type" name="farmer-type" required>
+                        <option value="">Select Farmer Type</option>
+                        <option value="small">Small Farmer</option>
+                        <option value="medium">Medium Farmer</option>
+                        <option value="large">Large Farmer</option>
+                    </select>
+                </p>
+                <p>
+                    <input class="login_info" type="tel" name="phone" id="phone" placeholder="Mobile Number"
+                        pattern="[0-9]{10}" required>
+                </p>
+                <p>
+                    <input class="login_info" type="password" name="password" id="password" placeholder="Password"
+                        required>
+                </p>
+
+                </p>
+                <button class="button-87" role="button">Register</button>
+                </p>
+            </div>
+
+    </main>
+    <script src="Home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+#parent{
+    display: flex;
+    
+}
+
+#navbar{
+    height: 65px;
+    width: 100vw;
+    display: flex;
+}
+.cr{
+    margin-left: 12px;
+    margin-top: 17px;
+    font-size: 25px;
+    color: orange;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+#left{
+    background-color:orange;
+    height: 700px;
+    width: 150px;
+    padding-left: 20px;
+    display: inline-block; 
+    padding-right: 10px;
+}
+li{
+    list-style-type: none;
+    padding-top: 12px;
+    color: white;
+    /* border: 2px solid transparent; */
+    font-weight: bold;
+    padding-bottom: 12px;
+    
+}
+#logo img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+}
+
+#un{
+    display: flex;
+    justify-content: center;
+    margin-left: 280px;
+}
+
+#contain{
+    display: flex;
+    height: 600px;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    padding-top:30px;
+}
+
+.one{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+.one img{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.line{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+/* body{
+    background-image: url(https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg?t=st=1711379593~exp=1711383193~hmac=ebc5ecbf45501d6fd06e7eeb690d5a60155e0dec16cec0f83b6b9b8e874db270&w=1060);
+    background-size: cover;
+} */
+
+@media(max-width:1000px){
+    #un{
+        margin-left: 10px;
+    }
+    #contain{
+        flex-wrap: wrap;
+    }
+}

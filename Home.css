@@ -33,7 +33,8 @@ body{
 .logo img{
     height: 60px;
     width: auto;
-    margin-left: 30px;
+    /* margin-right: 50%; */
+    margin: 5px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.153);
     border: black 2px solid;
@@ -47,6 +48,7 @@ body{
 ul{
     display: flex;
     list-style: none;
+    flex-direction: row;
     justify-content: center;
     margin: 5px;
 }
@@ -210,15 +212,15 @@ ul li:hover{
     font-family: "Poppins", sans-serif; 
     font-size: 10px;
   }
-   /* Responsiveness 
+   /* Responsiveness  */
  
 .burger-menu {
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 20%;
+  height: 20%;
   background-color: rgba(93, 90, 90, 0.95);
   padding: 20px;
   box-sizing: border-box;
@@ -227,9 +229,6 @@ ul li:hover{
   align-self: center;
   border-radius: 35px;
 }
-
-
-
 .burger-icon {
   display: none;
   position: fixed;
@@ -286,4 +285,4 @@ ul li:hover{
   body{
     position: fixed;
   }
-} */
+}

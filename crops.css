@@ -1,3 +1,7 @@
+.crops_profile_anchor{
+    text-decoration: none;
+    color: white;
+}
 #parent{
     display: flex;
     

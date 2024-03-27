@@ -1,4 +1,6 @@
- 
+ .anchor_button{
+  text-decoration: none;
+ }
 
 *{
     margin: 0;

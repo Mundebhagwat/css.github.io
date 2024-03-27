@@ -1,11 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("loginButton").addEventListener("click", function() {
-    // Display loading animation
     document.getElementById('loading').style.display = 'block';
-
-    // Navigate to page1.html after a slight delay to allow the loading animation to display
     setTimeout(function() {
         window.location.href = "login.html";
-    }, 500); // Adjust the delay time as needed
+    }, 500);
 });
 document.getElementById("registeration").addEventListener("click", function(){
     document.getElementById('loading').style.display = 'block';
@@ -14,12 +12,12 @@ document.getElementById("registeration").addEventListener("click", function(){
     } ,500)
 })
 // dashboard
-document.getElementById("dashboard").addEventListener("click", function(){
-    document.getElementById('loading').style.display = 'block';
-    setTimeout(function(){
-        window.location.href = "crops.html";
-    } ,500)
-})
+document.getElementById("dash").addEventListener("click", function() {
+  document.getElementById('loading').style.display = 'block';
+  setTimeout(function() {
+      window.location.href = "crops.html";
+  }, 500); 
+});
 // burger
 function toggleMenu() {
     let menu = document.querySelector('.burger-menu');
@@ -32,4 +30,5 @@ function toggleMenu() {
       icon.classList.add('open');
     }
   }
+});
   
